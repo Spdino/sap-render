@@ -8,8 +8,7 @@ import Login from './views/Login.vue'
 Vue.use(Router)
 
 export default new Router({
-    routes: [
-        {
+    routes: [{
             path: '/',
             name: 'home',
             component: Home
@@ -21,5 +20,3 @@ export default new Router({
         }
     ]
 })
-
-
